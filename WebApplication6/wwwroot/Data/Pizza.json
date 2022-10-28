@@ -2,26 +2,26 @@
   {
     "id": 1,
     "name": "Veggie Pizza",
-    "image": "https://i0.wp.com/www.thursdaynightpizza.com/wp-content/uploads/2022/06/veggie-pizza-overhead-sliced.png?w=1200&ssl=1"
+    "image": "https://i0.wp.com/www.thursdaynightpizza.com/wp-content/uploads/2022/06/veggie-pizza-side-view-out-of-oven.png?w=1200&ssl=1"
   },
   {
     "id": 2,
     "name": "Pepperoni Pizza",
-    "image": "https://www.simplyrecipes.com/thmb/h7H8UgA28OOJNGiP_bqXCYONB7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-4-82c60893fcad4ade906a8a9f59b8da9d.jpg"
+    "image": "https://i0.wp.com/www.thursdaynightpizza.com/wp-content/uploads/2019/01/bee-sting-finished_stamp.jpg?w=750&ssl=1"
   },
   {
     "id": 3,
     "name": "Meat Pizza",
-    "image": "https://www.thespruceeats.com/thmb/-AR3Y5oXU39v5j1YlBaMnPzQ1M4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/aqIMG_4568fhor-0b89dc5c8c494ee9828ed29805791c5a.jpg"
+    "image": "https://d332juqdd9b8hn.cloudfront.net/wp-content/uploads/2019/04/rotm-meatlovers.jpg"
   },
   {
     "id": 4,
     "name": "BBQ Chicken Pizza",
-    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.fanpage.it%2Fwp-content%2Fuploads%2Fsites%2F22%2F2022%2F02%2Fbbq-chicken-pizza-1.jpg&im"
+    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/15/1600x1066/gallery-1460735006-delish-skillet-pizza-bbq.jpg?resize=1200:*"
   },
   {
     "id": 5,
     "name": "Buffalo Pizza",
-    "image": "https://kfoods.com/images1/newrecipeicon/buffalo-chicken-pizza_7250.jpg"
+    "image": "https://kfoods.com/images1/newrecipeicon/chicken-pizza_4980.jpg"
   }
 ]
