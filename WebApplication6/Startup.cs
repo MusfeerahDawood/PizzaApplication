@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication6.Services;
 
 namespace WebApplication6
 {
@@ -24,6 +25,7 @@ namespace WebApplication6
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddTransient<JsonPizzaFile>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
