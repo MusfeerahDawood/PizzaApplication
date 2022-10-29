@@ -27,7 +27,6 @@ namespace WebApplication6.Pages
 
         public void OnGet()
         {
-            Pizza = PizzaService.getPizzaRecord();
         }
     }
 }
