@@ -28,6 +28,7 @@ namespace WebApplication6
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddTransient<JsonPizzaFile>();
         }
 
@@ -55,12 +56,8 @@ namespace WebApplication6
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapGet("/PizzaRecord", (context) =>
-             {
-               IEnumerable<Pizza> PizzaRecord= app.ApplicationServices.GetService<JsonPizzaFile>().getPizzaRecord();
-               var JsonPizzaRecord =JsonSerializer.Serialize<IEnumerable<Pizza>>(PizzaRecord);
-                 return context.Response.WriteAsync(JsonPizzaRecord);
-             });   
+                endpoints.MapControllers();
+               
             });
         }
     }
