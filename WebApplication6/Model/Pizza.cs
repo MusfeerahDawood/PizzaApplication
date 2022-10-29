@@ -5,8 +5,12 @@ namespace WebApplication6.Model
 {
     public class Pizza
     {
+        internal string name;
+        internal string image;
+
         [JsonPropertyName("id")]    
         public int pizza_id { get; set; }
+        public int Pizza_id { get; internal set; }
         [JsonPropertyName("name")]
         public string pizza_name { get; set; }
         [JsonPropertyName("image")]
